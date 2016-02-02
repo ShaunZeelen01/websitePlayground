@@ -1,7 +1,7 @@
 .box {
     width:100px;
     height:100px;
-    margin:3px;
+    margin:10px;
     left:0;
     float:left;
     border-radius:5px 5px 5px 5px;
@@ -17,4 +17,7 @@
 }
 #Jack {
     background-color:green;
+}
+#Sen {
+    background-color:orange;
 }
