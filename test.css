@@ -1,13 +1,22 @@
 .box {
+    position:absolute;
     width:100px;
     height:100px;
     margin:10px;
-    left:0;
     float:left;
+    left:0;
     border-radius:5px 5px 5px 5px;
     -webkit-box-shadow: 8px 10px 33px -8px rgba(0,0,0,0.75);
     -moz-box-shadow: 8px 10px 33px -8px rgba(0,0,0,0.75);
     box-shadow: 8px 10px 33px -8px rgba(0,0,0,0.75);
+}
+#top {
+    position:absolute;
+    top:10px;
+}
+#bottom {
+    position:absolute;
+    top:130px;
 }
 #Jim {
     background-color:blue;
@@ -17,7 +26,9 @@
 }
 #Jack {
     background-color:green;
+    left:130px;
 }
 #Sen {
     background-color:orange;
+    left:130px;
 }
